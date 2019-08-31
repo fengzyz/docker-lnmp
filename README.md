@@ -204,7 +204,7 @@ ports:
       "registry-mirrors": ["https://registry.docker-cn.com"]
     }
 
-其他的加速器：阿里云加速器、DaoCloud、腾讯云加速器 
+其他的加速器：阿里云加速器、腾讯云加速器 
 
 #### 5、PHP项目更新Composer依赖
 如果本地宿主机没有安装PHP以及Composer，可以通过进入PHP容器进行Composer依赖更新。
