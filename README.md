@@ -2,7 +2,7 @@
 本项目是基于Docker-LNMP的一键开发环境安装。便于前后端快速部署环境，更加专注业务功能开发，减少环境配置带来的困扰。
 
 ## 特性
-1. 支持支持**多版本PHP**共存，可任意切换（PHP5.6、PHP7.2)
+1. 支持**多版本PHP**共存，可任意切换（PHP5.6、PHP7.2)
 2. 集中管理Nginx,PHP、Mysql、Redis配置文件
 3. 集中管理容器Hosts文件
 4. 集中管理Nginx,PHP、Mysql日志文件
@@ -10,6 +10,7 @@
 6. 默认安装了Phalcon,Swoole,Redis,Xdebug项目依赖扩展
 7. 支持**HTTPS和HTTP/2**
 8. Docker容器可视化管理
+9. 支持扩展自定义
 
 ## 项目结构
 ```
