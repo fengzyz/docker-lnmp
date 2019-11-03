@@ -124,6 +124,7 @@ server {
     docker exec -it docker-lnmp_nginx_1 nginx -s reload
 ```
 
+
 ## 添加快捷键
 在开发的时候，我们可能经常使用docker exec -it切换到容器中或者重启Nginx，把常用的做成命令别名是个省事的方法。
 
