@@ -12,6 +12,7 @@ COPY ./sources/$SOURCE_LIST /etc/apt/sources.list
 RUN apt-get update --fix-missing
 RUN apt-get install -y wget
 
+
 # Composer
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \doc \
     && php composer-setup.php \
